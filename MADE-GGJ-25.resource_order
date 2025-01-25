@@ -17,9 +17,15 @@
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
   ],
   "ResourceOrderSettings":[
+    {"name":"obj_bounce_game","order":3,"path":"objects/obj_bounce_game/obj_bounce_game.yy",},
+    {"name":"obj_bubble_bounce","order":4,"path":"objects/obj_bubble_bounce/obj_bubble_bounce.yy",},
     {"name":"obj_bubble_idle","order":2,"path":"objects/obj_bubble_idle/obj_bubble_idle.yy",},
     {"name":"obj_game","order":1,"path":"objects/obj_game/obj_game.yy",},
+    {"name":"obj_solid","order":5,"path":"objects/obj_solid/obj_solid.yy",},
+    {"name":"room_bounce_bubbles","order":2,"path":"rooms/room_bounce_bubbles/room_bounce_bubbles.yy",},
     {"name":"room_bubble_idle","order":1,"path":"rooms/room_bubble_idle/room_bubble_idle.yy",},
+    {"name":"bubble_ani_copy","order":2,"path":"sprites/bubble_ani_copy/bubble_ani_copy.yy",},
     {"name":"bubble_animations_v1","order":1,"path":"sprites/bubble_animations_v1/bubble_animations_v1.yy",},
+    {"name":"spr_solid","order":3,"path":"sprites/spr_solid/spr_solid.yy",},
   ],
 }
