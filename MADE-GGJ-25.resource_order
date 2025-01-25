@@ -20,5 +20,6 @@
     {"name":"obj_bubble_idle","order":2,"path":"objects/obj_bubble_idle/obj_bubble_idle.yy",},
     {"name":"obj_game","order":1,"path":"objects/obj_game/obj_game.yy",},
     {"name":"room_bubble_idle","order":1,"path":"rooms/room_bubble_idle/room_bubble_idle.yy",},
+    {"name":"bubble_animations_v1","order":1,"path":"sprites/bubble_animations_v1/bubble_animations_v1.yy",},
   ],
 }
