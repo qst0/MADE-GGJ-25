@@ -46,8 +46,8 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
-    {"roomId":{"name":"room_tap_to_pop","path":"rooms/room_tap_to_pop/room_tap_to_pop.yy",},},
     {"roomId":{"name":"room_bubble_idle","path":"rooms/room_bubble_idle/room_bubble_idle.yy",},},
+    {"roomId":{"name":"room_tap_to_pop","path":"rooms/room_tap_to_pop/room_tap_to_pop.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
