@@ -5,6 +5,7 @@
     {"name":"Fonts","order":7,"path":"folders/Fonts.yy",},
     {"name":"Notes","order":13,"path":"folders/Notes.yy",},
     {"name":"Objects","order":9,"path":"folders/Objects.yy",},
+    {"name":"bubble_tennis","order":3,"path":"folders/Objects/bubble_tennis.yy",},
     {"name":"Particle Systems","order":15,"path":"folders/Particle Systems.yy",},
     {"name":"Paths","order":4,"path":"folders/Paths.yy",},
     {"name":"Rooms","order":10,"path":"folders/Rooms.yy",},
@@ -19,7 +20,8 @@
   "ResourceOrderSettings":[
     {"name":"obj_bubble_idle","order":2,"path":"objects/obj_bubble_idle/obj_bubble_idle.yy",},
     {"name":"obj_game","order":1,"path":"objects/obj_game/obj_game.yy",},
+    {"name":"tennis","order":1,"path":"objects/tennis/tennis.yy",},
     {"name":"room_bubble_idle","order":1,"path":"rooms/room_bubble_idle/room_bubble_idle.yy",},
-    {"name":"bubble_animations_v1","order":1,"path":"sprites/bubble_animations_v1/bubble_animations_v1.yy",},
+    {"name":"room_bubble_tennis","order":2,"path":"rooms/room_bubble_tennis/room_bubble_tennis.yy",},
   ],
 }
