@@ -39,6 +39,7 @@
     {"id":{"name":"obj_game","path":"objects/obj_game/obj_game.yy",},},
     {"id":{"name":"room_bubble_idle","path":"rooms/room_bubble_idle/room_bubble_idle.yy",},},
     {"id":{"name":"room_tap_to_pop","path":"rooms/room_tap_to_pop/room_tap_to_pop.yy",},},
+    {"id":{"name":"_278933_Bubble_Pop_Button_1","path":"sounds/_278933_Bubble_Pop_Button_1/_278933_Bubble_Pop_Button_1.yy",},},
     {"id":{"name":"bubble_animations_v1","path":"sprites/bubble_animations_v1/bubble_animations_v1.yy",},},
     {"id":{"name":"spr_bubble","path":"sprites/spr_bubble/spr_bubble.yy",},},
   ],
