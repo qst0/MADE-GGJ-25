@@ -45,14 +45,6 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-    {"roomId":{"name":"room_bubble_tennis","path":"rooms/room_bubble_tennis/room_bubble_tennis.yy",},},
-=======
->>>>>>> parent of 7216401 (bubble_tennis (smile))
-    {"roomId":{"name":"room_bubble_idle","path":"rooms/room_bubble_idle/room_bubble_idle.yy",},},
->>>>>>> 7216401d043f4431a763f1e94dbb6a78ff96f7e1
     {"roomId":{"name":"room_tap_to_pop","path":"rooms/room_tap_to_pop/room_tap_to_pop.yy",},},
     {"roomId":{"name":"room_bubble_idle","path":"rooms/room_bubble_idle/room_bubble_idle.yy",},},
   ],
