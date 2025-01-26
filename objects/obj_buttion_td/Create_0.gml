@@ -1,0 +1,1 @@
+global.tap_to_pop_time = 0
