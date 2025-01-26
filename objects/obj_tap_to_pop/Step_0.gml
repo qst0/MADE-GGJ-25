@@ -9,6 +9,8 @@ if lives and instance_count < 50 and step % int64(120/4) == 1 {
  
 if lives == 0 {
 	global.tap_to_pop_time = step / 120
+	global.prev_room = room
+	room_goto(room_game_loss)
 } else {
 	step++
 }
