@@ -31,7 +31,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":true,
-  "spriteId":null,
+  "spriteId":{
+    "name":"button_blank",
+    "path":"sprites/button_blank/button_blank.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }
