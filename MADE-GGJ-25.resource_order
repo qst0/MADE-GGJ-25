@@ -26,6 +26,7 @@
     {"name":"obj_solid","order":5,"path":"objects/obj_solid/obj_solid.yy",},
     {"name":"room_bounce_bubbles","order":2,"path":"rooms/room_bounce_bubbles/room_bounce_bubbles.yy",},
     {"name":"room_bubble_idle","order":1,"path":"rooms/room_bubble_idle/room_bubble_idle.yy",},
+    {"name":"room_bubble_td","order":4,"path":"rooms/room_bubble_td/room_bubble_td.yy",},
     {"name":"room_roguelike","order":3,"path":"rooms/room_roguelike/room_roguelike.yy",},
     {"name":"bubble_ani_copy","order":2,"path":"sprites/bubble_ani_copy/bubble_ani_copy.yy",},
     {"name":"bubble_animations_v1","order":1,"path":"sprites/bubble_animations_v1/bubble_animations_v1.yy",},

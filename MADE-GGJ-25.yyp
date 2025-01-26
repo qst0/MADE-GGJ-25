@@ -44,6 +44,7 @@
     {"id":{"name":"obj_solid","path":"objects/obj_solid/obj_solid.yy",},},
     {"id":{"name":"room_bounce_bubbles","path":"rooms/room_bounce_bubbles/room_bounce_bubbles.yy",},},
     {"id":{"name":"room_bubble_idle","path":"rooms/room_bubble_idle/room_bubble_idle.yy",},},
+    {"id":{"name":"room_bubble_td","path":"rooms/room_bubble_td/room_bubble_td.yy",},},
     {"id":{"name":"room_roguelike","path":"rooms/room_roguelike/room_roguelike.yy",},},
     {"id":{"name":"room_tap_to_pop","path":"rooms/room_tap_to_pop/room_tap_to_pop.yy",},},
     {"id":{"name":"_278933_Bubble_Pop_Button_1","path":"sounds/_278933_Bubble_Pop_Button_1/_278933_Bubble_Pop_Button_1.yy",},},
@@ -61,6 +62,7 @@
     {"roomId":{"name":"room_tap_to_pop","path":"rooms/room_tap_to_pop/room_tap_to_pop.yy",},},
     {"roomId":{"name":"room_bubble_idle","path":"rooms/room_bubble_idle/room_bubble_idle.yy",},},
     {"roomId":{"name":"room_bounce_bubbles","path":"rooms/room_bounce_bubbles/room_bounce_bubbles.yy",},},
+    {"roomId":{"name":"room_bubble_td","path":"rooms/room_bubble_td/room_bubble_td.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
