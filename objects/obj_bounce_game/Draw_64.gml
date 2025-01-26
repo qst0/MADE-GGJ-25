@@ -1,6 +1,7 @@
 /// @desc
 if win = false {
-	draw_text(20,20,"Score: "+string(points))
+	var pointString = points > 0 ? string(points) : "0"
+	draw_text(20,20,"Score: " + pointString)
 } else {
 	draw_text(20,20,"You Win!")
 }
