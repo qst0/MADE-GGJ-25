@@ -8,7 +8,7 @@ if lives <= 0 {
 	if room == room_tap_to_pop or room == room_bubble_world_home {
 		var safe_to_move = true
 		for (var i = 0; i < 10; i++) {
-		    if instance_place(x,y-1,obj_bubble) {
+		    if instance_place(x,y-1,obj_bubble_tap) {
 				safe_to_move= false
 			}
 		}
