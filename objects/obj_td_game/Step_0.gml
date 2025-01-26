@@ -40,14 +40,23 @@ if (step == levels[active_level][next_enemy_index].spawn_time) {
     
     //show_debug_message("room_height: " + string(room_height) + " room_width: " + string(room_width) + " bubble width: " + string(bubble_animations_v1_width));
     //show_debug_message("x_spawn: " + string(x_spawn) + " y_spawn: " + string(y_spawn));
-    
-    var _collision_instance = collision_circle(x_spawn, y_spawn, bubble_animations_v1_width, all, false, true);
-    //show_debug_message("num collisions: " + string(_collision_instance));
-    
-    // if there's already an enemy in that space, go back a step and just wait until it's valid to spawn there
-    if (_collision_instance != noone) {
-        step--;
-    } else {
+	
+	// Get a list of all instances in the collision area
+	var collisions = ds_list_create();
+	collision_circle_list(x_spawn, y_spawn, bubble_animations_v1_width, all, false, true, collisions, false);
+
+	var _collision_instance = noone;
+	for (var i = 0; i < ds_list_size(collisions); i++) {
+	    var instance = collisions[| i];
+	    if (instance.solid) {
+	        _collision_instance = instance;
+	        break;
+	    }
+	}
+	ds_list_destroy(collisions);
+	if (_collision_instance != noone) {
+	    step--;
+	} else {
 		var new_instance;
 		switch (enemy_specs.enemy_type) {
 			case 0:

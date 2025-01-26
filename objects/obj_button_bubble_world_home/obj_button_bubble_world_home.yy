@@ -29,7 +29,7 @@
   "properties":[],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
-  "solid":true,
+  "solid":false,
   "spriteId":{
     "name":"button_blank",
     "path":"sprites/button_blank/button_blank.yy",
