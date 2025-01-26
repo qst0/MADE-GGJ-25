@@ -11,6 +11,7 @@ if (size > 1.4 && instance_number(obj_bubble_td_enemy_grower) < 6) {
 		x += 96;
 		_new_instance.x -= 96;
 		size = 1;
+		global.bubble_left++;
 	} else if (y > obj_td_game.bubble_animations_v1_width + 96 + 2 && y < room_height - obj_td_game.bubble_animations_v1_width - 96 - 2) {
 		var _new_instance = instance_copy(true);
 		_new_instance.size = 1;
@@ -19,6 +20,7 @@ if (size > 1.4 && instance_number(obj_bubble_td_enemy_grower) < 6) {
 		y += 96;
 		_new_instance.y -= 96;
 		size = 1;
+		global.bubble_left++;
 	}
 }
 
