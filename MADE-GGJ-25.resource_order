@@ -1,17 +1,4 @@
 {
   "FolderOrderSettings":[],
-  "ResourceOrderSettings":[
-    {"name":"bubble_iridescent_mockup","order":4,"path":"sprites/bubble_iridescent_mockup/bubble_iridescent_mockup.yy",},
-    {"name":"bubble_iridescent","order":5,"path":"sprites/bubble_iridescent/bubble_iridescent.yy",},
-    {"name":"bubble_irridescent_frames","order":3,"path":"sprites/bubble_irridescent_frames/bubble_irridescent_frames.yy",},
-    {"name":"hand_animations_sprite","order":1,"path":"sprites/hand_animations_sprite/hand_animations_sprite.yy",},
-    {"name":"hand_frames","order":2,"path":"sprites/hand_frames/hand_frames.yy",},
-    {"name":"lose_BG","order":6,"path":"sprites/lose_BG/lose_BG.yy",},
-    {"name":"lose_mockup","order":7,"path":"sprites/lose_mockup/lose_mockup.yy",},
-    {"name":"win_BG","order":8,"path":"sprites/win_BG/win_BG.yy",},
-    {"name":"win_screen_menu","order":9,"path":"sprites/win_screen_menu/win_screen_menu.yy",},
-    {"name":"room_bounce_2","order":10,"path":"rooms/room_bounce_2/room_bounce_2.yy",},
-    {"name":"obj_buttion_td","order":11,"path":"objects/obj_buttion_td/obj_buttion_td.yy",},
-    {"name":"room_bounce_2","order":12,"path":"rooms/room_bounce_2/room_bounce_2.yy",},
-  ],
+  "ResourceOrderSettings":[],
 }
