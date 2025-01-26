@@ -1,2 +1,4 @@
 /// @desc
-image_index = 27
+if image_index < 27 {
+	image_index = 27
+}
