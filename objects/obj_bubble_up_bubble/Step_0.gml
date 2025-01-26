@@ -4,6 +4,5 @@ if image_index == 25 {
 }
 
 if image_index = 30 {
-	image_speed = 0
-	alarm[0] = 120
+	room_goto(room_game_loss)
 }

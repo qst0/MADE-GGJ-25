@@ -1,4 +1,8 @@
 /// @desc
+global.last_up_score = 0
+if not global.bubble_up_highest {
+	global.bubble_up_highest = 0
+}
 win = false
 global.phys_gravity_force = 8;
 global.phys_gravity_direction = 90; // Up? //270 is Down
