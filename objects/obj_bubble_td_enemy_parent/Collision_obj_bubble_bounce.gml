@@ -14,4 +14,4 @@ if other.visible
 
 if image_index <= 24 {
 		image_index = 24
-}
+	}
