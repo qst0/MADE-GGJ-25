@@ -19,7 +19,6 @@ if global.bubble_left == 0//instance_number(obj_bubble_bounce) == 0
 }
 
 var screen_w = view_wport;
-show_debug_message(screen_w)
 var margin = 20;
 var text_x = screen_w - margin;  // Position near the right edge
 var text_y = margin;  // Top margin
@@ -39,9 +38,6 @@ for (var i = 0; i < array_length(global.ammo_list); i++) {
 //// Align text to the right
 //draw_set_halign(fa_right);
 //draw_set_valign(fa_top);
-show_debug_message(ammo_display)
-show_debug_message(text_x)
-show_debug_message(text_y)
 
 // Draw the ammo list emojis at the top right
 draw_text(220, text_y, "Ammo:" + ammo_display);

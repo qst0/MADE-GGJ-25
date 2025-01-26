@@ -12,7 +12,6 @@ if (array_length(global.ammo_list) > 0) {
     if (ds_map_exists(global.ammo_dict, next_ammo)) {
         var obj_type = global.ammo_dict[? next_ammo];
         instance_create_depth(mx, my, 0, obj_type);
-        show_debug_message("Created: " + next_ammo);
     } else {
         show_debug_message("Error: Unknown ammo type " + next_ammo);
     }
