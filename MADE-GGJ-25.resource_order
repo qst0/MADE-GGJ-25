@@ -20,6 +20,7 @@
     {"name":"obj_bounce_game","order":3,"path":"objects/obj_bounce_game/obj_bounce_game.yy",},
     {"name":"obj_bubble_bomb","order":9,"path":"objects/obj_bubble_bomb/obj_bubble_bomb.yy",},
     {"name":"obj_bubble_bounce","order":4,"path":"objects/obj_bubble_bounce/obj_bubble_bounce.yy",},
+    {"name":"obj_bubble_electric","order":10,"path":"objects/obj_bubble_electric/obj_bubble_electric.yy",},
     {"name":"obj_bubble_idle","order":2,"path":"objects/obj_bubble_idle/obj_bubble_idle.yy",},
     {"name":"obj_bubble_td_enemy_base","order":12,"path":"objects/obj_bubble_td_enemy_base/obj_bubble_td_enemy_base.yy",},
     {"name":"obj_bubble_td_enemy_parent","order":10,"path":"objects/obj_bubble_td_enemy_parent/obj_bubble_td_enemy_parent.yy",},

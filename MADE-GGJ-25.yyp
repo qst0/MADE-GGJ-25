@@ -37,6 +37,7 @@
     {"id":{"name":"obj_bounce_game","path":"objects/obj_bounce_game/obj_bounce_game.yy",},},
     {"id":{"name":"obj_bubble_bomb","path":"objects/obj_bubble_bomb/obj_bubble_bomb.yy",},},
     {"id":{"name":"obj_bubble_bounce","path":"objects/obj_bubble_bounce/obj_bubble_bounce.yy",},},
+    {"id":{"name":"obj_bubble_electric","path":"objects/obj_bubble_electric/obj_bubble_electric.yy",},},
     {"id":{"name":"obj_bubble_idle","path":"objects/obj_bubble_idle/obj_bubble_idle.yy",},},
     {"id":{"name":"obj_bubble_td_enemy_base","path":"objects/obj_bubble_td_enemy_base/obj_bubble_td_enemy_base.yy",},},
     {"id":{"name":"obj_bubble_td_enemy_parent","path":"objects/obj_bubble_td_enemy_parent/obj_bubble_td_enemy_parent.yy",},},
