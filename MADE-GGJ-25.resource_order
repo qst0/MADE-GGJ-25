@@ -10,5 +10,6 @@
     {"name":"lose_mockup","order":7,"path":"sprites/lose_mockup/lose_mockup.yy",},
     {"name":"win_BG","order":8,"path":"sprites/win_BG/win_BG.yy",},
     {"name":"win_screen_menu","order":9,"path":"sprites/win_screen_menu/win_screen_menu.yy",},
-  ],
+    {"name":"room_bounce_2","order":10,"path":"rooms/room_bounce_2/room_bounce_2.yy",},
+],
 }
