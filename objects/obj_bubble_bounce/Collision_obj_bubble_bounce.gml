@@ -1,4 +1,4 @@
-/// @desc
+ /// @desc
 with other {
 	image_blend = choose(c_aqua,c_red)
 	score--
