@@ -1,4 +1,6 @@
 {
   "FolderOrderSettings":[],
-  "ResourceOrderSettings":[],
+  "ResourceOrderSettings":[
+    {"name":"obj_ammo_special","order":1,"path":"objects/obj_ammo_special/obj_ammo_special.yy",},
+  ],
 }
