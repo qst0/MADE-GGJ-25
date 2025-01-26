@@ -30,7 +30,7 @@
   "properties":[],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
-  "solid":false,
+  "solid":true,
   "spriteId":{
     "name":"bubble_iridescent_mockup",
     "path":"sprites/bubble_iridescent_mockup/bubble_iridescent_mockup.yy",
