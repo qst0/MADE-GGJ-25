@@ -1,0 +1,38 @@
+Title
+Earl's Effervescent Emporium
+
+Project URL
+
+Short description or tagline
+Step into Earl's brightly lit emporium and be buoyed by relaxing music and the simple joys of making bubbles go pop :)
+
+
+Calssification
+Game
+
+Kind of project
+
+
+Release status
+
+
+Pricing 
+0$
+
+Details--
+Earl's Effervescent Emporium is a collection of small games themed around "bubbles" built for Global Game Jam 2025.
+
+In [Bubble pop], Earl is weirdly against their ceiling being clean. Pop as many bubbles before they hit the top of the screen as you can! Just ten bubbles will put Earl so out of sorts that they'll end your game then and there.
+
+m 
+
+In [bubble bounce], 
+
+
+Genres
+
+
+Tags
+
+
+AI Generation disclosure
