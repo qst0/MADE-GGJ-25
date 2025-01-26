@@ -1,7 +1,11 @@
 {
   "$GMObject":"",
   "%Name":"obj_bubble_td_base",
-  "eventList":[],
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"obj_bubble_td_enemy_parent","path":"objects/obj_bubble_td_enemy_parent/obj_bubble_td_enemy_parent.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
   "name":"obj_bubble_td_base",
   "overriddenProperties":[],
@@ -27,7 +31,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"bubble_iridescent_mockup",
+    "path":"sprites/bubble_iridescent_mockup/bubble_iridescent_mockup.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }
