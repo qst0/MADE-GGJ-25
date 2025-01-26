@@ -1,6 +1,6 @@
 /// @desc
 if win = false {
-	draw_text(20,20,"Score: "+string(score))
+	draw_text(20,20,"Score: "+string(points))
 } else {
 	draw_text(20,20,"You Win!")
 }

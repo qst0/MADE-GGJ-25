@@ -1,6 +1,6 @@
 /// @desc
 if not win {
-	if score >= 1000 {
+	if points >= 1000 {
 		win = true
 		global.bounce_bubbles_time = step / 120
 		room_goto(room_game_win)
