@@ -1,4 +1,5 @@
 /// @desc
+win = false
 step = 0
 randomize()
-score = 10000
+score = 1000
