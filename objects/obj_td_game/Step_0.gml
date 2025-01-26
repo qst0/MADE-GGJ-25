@@ -65,6 +65,9 @@ if (step == levels[active_level][next_enemy_index].spawn_time) {
 			case 1:
 				new_instance = instance_create_depth(x_spawn, y_spawn, 0, obj_bubble_td_enemy_grower);
 				break;
+			case 2:
+				new_instance = instance_create_depth(x_spawn, y_spawn, 0, obj_bubble_td_enemy_smart);
+				break;
 			default:
 				show_debug_message("invalid enemy type trying to be spawn");
 		}

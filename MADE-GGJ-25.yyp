@@ -47,6 +47,7 @@
     {"id":{"name":"obj_bubble_td_enemy_base","path":"objects/obj_bubble_td_enemy_base/obj_bubble_td_enemy_base.yy",},},
     {"id":{"name":"obj_bubble_td_enemy_grower","path":"objects/obj_bubble_td_enemy_grower/obj_bubble_td_enemy_grower.yy",},},
     {"id":{"name":"obj_bubble_td_enemy_parent","path":"objects/obj_bubble_td_enemy_parent/obj_bubble_td_enemy_parent.yy",},},
+    {"id":{"name":"obj_bubble_td_enemy_smart","path":"objects/obj_bubble_td_enemy_smart/obj_bubble_td_enemy_smart.yy",},},
     {"id":{"name":"obj_bubble_world_home","path":"objects/obj_bubble_world_home/obj_bubble_world_home.yy",},},
     {"id":{"name":"obj_bubble","path":"objects/obj_bubble/obj_bubble.yy",},},
     {"id":{"name":"obj_buttion_td","path":"objects/obj_buttion_td/obj_buttion_td.yy",},},

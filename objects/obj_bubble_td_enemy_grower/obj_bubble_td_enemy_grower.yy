@@ -32,7 +32,7 @@
   "properties":[],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
-  "solid":false,
+  "solid":true,
   "spriteId":{
     "name":"bubble_animations_v1",
     "path":"sprites/bubble_animations_v1/bubble_animations_v1.yy",
