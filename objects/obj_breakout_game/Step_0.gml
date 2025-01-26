@@ -4,10 +4,10 @@ if not win {
 		win = true
 		room_goto(room_game_win)
 	} else {
-		if instance_count < 100 and step % 12 = 1 {
+		if instance_count < 20 and step % 12 = 1 {
 			instance_create_depth(
 			irandom_range(32,room_width-32),
-			irandom_range(32,128),
+			irandom_range(64,256),
 			0,
 			obj_bubble_breakout_bounce
 			) 

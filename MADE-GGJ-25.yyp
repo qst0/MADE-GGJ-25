@@ -102,6 +102,7 @@
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
     {"roomId":{"name":"room_bubble_breakout","path":"rooms/room_bubble_breakout/room_bubble_breakout.yy",},},
+    {"roomId":{"name":"room_bounce_2","path":"rooms/room_bounce_2/room_bounce_2.yy",},},
     {"roomId":{"name":"room_bubble_world_home","path":"rooms/room_bubble_world_home/room_bubble_world_home.yy",},},
     {"roomId":{"name":"room_game_win","path":"rooms/room_game_win/room_game_win.yy",},},
     {"roomId":{"name":"room_td","path":"rooms/room_td/room_td.yy",},},
@@ -110,7 +111,6 @@
     {"roomId":{"name":"room_tap_to_pop","path":"rooms/room_tap_to_pop/room_tap_to_pop.yy",},},
     {"roomId":{"name":"room_bubble_idle","path":"rooms/room_bubble_idle/room_bubble_idle.yy",},},
     {"roomId":{"name":"room_bounce_haunted","path":"rooms/room_bounce_haunted/room_bounce_haunted.yy",},},
-    {"roomId":{"name":"room_bounce_2","path":"rooms/room_bounce_2/room_bounce_2.yy",},},
     {"roomId":{"name":"room_game_loss","path":"rooms/room_game_loss/room_game_loss.yy",},},
   ],
   "templateType":"game",
