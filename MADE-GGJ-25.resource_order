@@ -17,6 +17,7 @@
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
   ],
   "ResourceOrderSettings":[
+    {"name":"Font1","order":4,"path":"fonts/Font1/Font1.yy",},
     {"name":"obj_bounce_game","order":2,"path":"objects/obj_bounce_game/obj_bounce_game.yy",},
     {"name":"obj_bubble_bounce","order":3,"path":"objects/obj_bubble_bounce/obj_bubble_bounce.yy",},
     {"name":"obj_bubble_idle","order":1,"path":"objects/obj_bubble_idle/obj_bubble_idle.yy",},
@@ -30,6 +31,8 @@
     {"name":"room_bubble_world_home","order":3,"path":"rooms/room_bubble_world_home/room_bubble_world_home.yy",},
     {"name":"bubble_ani_copy","order":2,"path":"sprites/bubble_ani_copy/bubble_ani_copy.yy",},
     {"name":"bubble_animations_v1","order":1,"path":"sprites/bubble_animations_v1/bubble_animations_v1.yy",},
+    {"name":"button_blank","order":6,"path":"sprites/button_blank/button_blank.yy",},
+    {"name":"menu_BG","order":5,"path":"sprites/menu_BG/menu_BG.yy",},
     {"name":"spr_bubble_world_title","order":4,"path":"sprites/spr_bubble_world_title/spr_bubble_world_title.yy",},
     {"name":"spr_solid","order":3,"path":"sprites/spr_solid/spr_solid.yy",},
   ],

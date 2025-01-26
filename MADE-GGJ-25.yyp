@@ -26,7 +26,9 @@
     {"$GMFolder":"","%Name":"Tile Sets","folderPath":"folders/Tile Sets.yy","name":"Tile Sets","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Timelines","folderPath":"folders/Timelines.yy","name":"Timelines","resourceType":"GMFolder","resourceVersion":"2.0",},
   ],
-  "IncludedFiles":[],
+  "IncludedFiles":[
+    {"$GMIncludedFile":"","%Name":"PressStart2P-Regular.ttf","CopyToMask":-1,"filePath":"datafiles","name":"PressStart2P-Regular.ttf","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
+  ],
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
@@ -34,6 +36,7 @@
   },
   "name":"MADE-GGJ-25",
   "resources":[
+    {"id":{"name":"Font1","path":"fonts/Font1/Font1.yy",},},
     {"id":{"name":"obj_bounce_game","path":"objects/obj_bounce_game/obj_bounce_game.yy",},},
     {"id":{"name":"obj_bubble_bounce","path":"objects/obj_bubble_bounce/obj_bubble_bounce.yy",},},
     {"id":{"name":"obj_bubble_idle","path":"objects/obj_bubble_idle/obj_bubble_idle.yy",},},
@@ -50,6 +53,8 @@
     {"id":{"name":"_278933_Bubble_Pop_Button_1","path":"sounds/_278933_Bubble_Pop_Button_1/_278933_Bubble_Pop_Button_1.yy",},},
     {"id":{"name":"bubble_ani_copy","path":"sprites/bubble_ani_copy/bubble_ani_copy.yy",},},
     {"id":{"name":"bubble_animations_v1","path":"sprites/bubble_animations_v1/bubble_animations_v1.yy",},},
+    {"id":{"name":"button_blank","path":"sprites/button_blank/button_blank.yy",},},
+    {"id":{"name":"menu_BG","path":"sprites/menu_BG/menu_BG.yy",},},
     {"id":{"name":"spr_bubble_world_title","path":"sprites/spr_bubble_world_title/spr_bubble_world_title.yy",},},
     {"id":{"name":"spr_bubble","path":"sprites/spr_bubble/spr_bubble.yy",},},
     {"id":{"name":"spr_solid","path":"sprites/spr_solid/spr_solid.yy",},},
