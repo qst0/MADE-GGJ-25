@@ -38,17 +38,29 @@ if (step == levels[active_level][next_enemy_index].spawn_time) {
     x_spawn = clamp(x_spawn, bubble_animations_v1_width + 1, room_width - bubble_animations_v1_width - 1);
     y_spawn = clamp(y_spawn, bubble_animations_v1_width + 1, room_height - bubble_animations_v1_width - 1);
     
-    show_debug_message("room_height: " + string(room_height) + " room_width: " + string(room_width) + " bubble width: " + string(bubble_animations_v1_width));
-    show_debug_message("x_spawn: " + string(x_spawn) + " y_spawn: " + string(y_spawn));
+    //show_debug_message("room_height: " + string(room_height) + " room_width: " + string(room_width) + " bubble width: " + string(bubble_animations_v1_width));
+    //show_debug_message("x_spawn: " + string(x_spawn) + " y_spawn: " + string(y_spawn));
     
     var _collision_instance = collision_circle(x_spawn, y_spawn, bubble_animations_v1_width, all, false, true);
-    show_debug_message("num collisions: " + string(_collision_instance));
+    //show_debug_message("num collisions: " + string(_collision_instance));
     
     // if there's already an enemy in that space, go back a step and just wait until it's valid to spawn there
     if (_collision_instance != noone) {
         step--;
     } else {
-        instance_create_depth(x_spawn, y_spawn, 0, obj_bubble_td_enemy_base);
+		var new_instance;
+		switch (enemy_specs.enemy_type) {
+			case 0:
+				new_instance = instance_create_depth(x_spawn, y_spawn, 0, obj_bubble_td_enemy_base);
+				break;
+			case 1:
+				new_instance = instance_create_depth(x_spawn, y_spawn, 0, obj_bubble_td_enemy_grower);
+				break;
+			default:
+				show_debug_message("invalid enemy type trying to be spawn");
+		}
+		
+		new_instance.direction = enemy_specs.spawn_direction;
         
         if (next_enemy_index < array_length(levels[active_level]) - 1) {
             next_enemy_index++;
