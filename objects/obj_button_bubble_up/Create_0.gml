@@ -1,1 +1,0 @@
-global.bubble_up_highest = 0

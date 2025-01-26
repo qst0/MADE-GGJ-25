@@ -1,4 +1,4 @@
-show_debug_message("step: " + string(step));
+
 if (step == levels[active_level][next_enemy_index].spawn_time) {
     var enemy_specs = levels[active_level][next_enemy_index];
     
