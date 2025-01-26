@@ -77,7 +77,6 @@ draw_set_alpha(1);
 
 
 var i = 0;
-show_debug_message(ds_list_size(global.current_lightning_effects))
 while (i < ds_list_size(global.current_lightning_effects)) 
 {
     var effect = global.current_lightning_effects[| i];

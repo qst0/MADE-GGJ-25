@@ -1,7 +1,7 @@
 if (lightning_eff == true) {
     // Alternate between white and normal color to create flashing effect
     if (current_time mod 6 < 3) {
-        image_blend = c_white;  // Blend with white to create flash effect
+        image_blend = c_yellow;  // Blend with white to create flash effect
         draw_set_alpha(0.5);  // Set alpha (opacity) for blending, adjust as needed
     } else {
         image_blend = c_white;  // Reset to normal (no blending)

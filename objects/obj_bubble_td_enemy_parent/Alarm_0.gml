@@ -20,3 +20,5 @@ if (_num > 0)
     }
     var list_length = ds_list_size(_list);
 }
+
+image_index = 24
