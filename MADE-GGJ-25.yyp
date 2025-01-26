@@ -41,6 +41,7 @@
     {"id":{"name":"obj_bounce_game","path":"objects/obj_bounce_game/obj_bounce_game.yy",},},
     {"id":{"name":"obj_bubble_bomb","path":"objects/obj_bubble_bomb/obj_bubble_bomb.yy",},},
     {"id":{"name":"obj_bubble_bounce","path":"objects/obj_bubble_bounce/obj_bubble_bounce.yy",},},
+    {"id":{"name":"obj_bubble_freeze","path":"objects/obj_bubble_freeze/obj_bubble_freeze.yy",},},
     {"id":{"name":"obj_bubble_idle","path":"objects/obj_bubble_idle/obj_bubble_idle.yy",},},
     {"id":{"name":"obj_bubble_lightning","path":"objects/obj_bubble_lightning/obj_bubble_lightning.yy",},},
     {"id":{"name":"obj_bubble_td_base","path":"objects/obj_bubble_td_base/obj_bubble_td_base.yy",},},

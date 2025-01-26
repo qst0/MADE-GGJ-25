@@ -2,6 +2,7 @@
   "FolderOrderSettings":[],
   "ResourceOrderSettings":[
     {"name":"obj_ammo_special","order":1,"path":"objects/obj_ammo_special/obj_ammo_special.yy",},
+    {"name":"obj_bubble_freeze","order":21,"path":"objects/obj_bubble_freeze/obj_bubble_freeze.yy",},
     {"name":"obj_bubble_td_enemy_smart","order":20,"path":"objects/obj_bubble_td_enemy_smart/obj_bubble_td_enemy_smart.yy",},
     {"name":"obj_bubble_up_bubble","order":6,"path":"objects/obj_bubble_up_bubble/obj_bubble_up_bubble.yy",},
     {"name":"obj_bubble_world_home","order":5,"path":"objects/obj_bubble_world_home/obj_bubble_world_home.yy",},
