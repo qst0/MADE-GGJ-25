@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":true,
   "spriteId":{
-    "name":"spr_solid",
-    "path":"sprites/spr_solid/spr_solid.yy",
+    "name":"button_blank",
+    "path":"sprites/button_blank/button_blank.yy",
   },
   "spriteMaskId":null,
   "visible":true,
