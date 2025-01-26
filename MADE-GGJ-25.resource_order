@@ -33,6 +33,8 @@
     {"name":"Bubble_World_3","order":3,"path":"sounds/Bubble_World_3/Bubble_World_3.yy",},
     {"name":"bubble_ani_copy","order":2,"path":"sprites/bubble_ani_copy/bubble_ani_copy.yy",},
     {"name":"bubble_animations_v1","order":1,"path":"sprites/bubble_animations_v1/bubble_animations_v1.yy",},
+    {"name":"button_blank","order":5,"path":"sprites/button_blank/button_blank.yy",},
+    {"name":"hand_mockup","order":6,"path":"sprites/hand_mockup/hand_mockup.yy",},
     {"name":"spr_bubble_world_title","order":4,"path":"sprites/spr_bubble_world_title/spr_bubble_world_title.yy",},
     {"name":"spr_solid","order":3,"path":"sprites/spr_solid/spr_solid.yy",},
   ],
