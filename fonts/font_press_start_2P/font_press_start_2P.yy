@@ -1,6 +1,6 @@
 {
   "$GMFont":"",
-  "%Name":"Font1",
+  "%Name":"font_press_start_2P",
   "AntiAlias":0,
   "applyKerning":0,
   "ascender":16,
@@ -118,10 +118,10 @@
   "last":0,
   "lineHeight":16,
   "maintainGms1Font":false,
-  "name":"Font1",
+  "name":"font_press_start_2P",
   "parent":{
-    "name":"Rooms",
-    "path":"folders/Rooms.yy",
+    "name":"Fonts",
+    "path":"folders/Fonts.yy",
   },
   "pointRounding":0,
   "ranges":[

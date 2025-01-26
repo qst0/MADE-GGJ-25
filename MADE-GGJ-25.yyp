@@ -36,7 +36,7 @@
   },
   "name":"MADE-GGJ-25",
   "resources":[
-    {"id":{"name":"Font1","path":"fonts/Font1/Font1.yy",},},
+    {"id":{"name":"font_press_start_2P","path":"fonts/font_press_start_2P/font_press_start_2P.yy",},},
     {"id":{"name":"obj_bounce_bubbles","path":"objects/obj_bounce_bubbles/obj_bounce_bubbles.yy",},},
     {"id":{"name":"obj_bounce_game","path":"objects/obj_bounce_game/obj_bounce_game.yy",},},
     {"id":{"name":"obj_bubble_bounce","path":"objects/obj_bubble_bounce/obj_bubble_bounce.yy",},},
