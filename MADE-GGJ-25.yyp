@@ -37,6 +37,7 @@
   "name":"MADE-GGJ-25",
   "resources":[
     {"id":{"name":"Font1","path":"fonts/Font1/Font1.yy",},},
+    {"id":{"name":"obj_bounce_bubbles","path":"objects/obj_bounce_bubbles/obj_bounce_bubbles.yy",},},
     {"id":{"name":"obj_bounce_game","path":"objects/obj_bounce_game/obj_bounce_game.yy",},},
     {"id":{"name":"obj_bubble_bounce","path":"objects/obj_bubble_bounce/obj_bubble_bounce.yy",},},
     {"id":{"name":"obj_bubble_idle","path":"objects/obj_bubble_idle/obj_bubble_idle.yy",},},
@@ -46,6 +47,7 @@
     {"id":{"name":"obj_button_tap_to_pop","path":"objects/obj_button_tap_to_pop/obj_button_tap_to_pop.yy",},},
     {"id":{"name":"obj_game","path":"objects/obj_game/obj_game.yy",},},
     {"id":{"name":"obj_solid","path":"objects/obj_solid/obj_solid.yy",},},
+    {"id":{"name":"obj_tap_to_pop","path":"objects/obj_tap_to_pop/obj_tap_to_pop.yy",},},
     {"id":{"name":"room_bounce_bubbles","path":"rooms/room_bounce_bubbles/room_bounce_bubbles.yy",},},
     {"id":{"name":"room_bubble_idle","path":"rooms/room_bubble_idle/room_bubble_idle.yy",},},
     {"id":{"name":"room_bubble_world_home","path":"rooms/room_bubble_world_home/room_bubble_world_home.yy",},},
