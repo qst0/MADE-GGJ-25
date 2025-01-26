@@ -1,12 +1,21 @@
 
 
-if other.image_blend = c_red {
-	instance_destroy()
+if image_blend = c_red and other.image_index < 24 {
+	other.image_index = 24
+	if scale < 3 {
+		scale += 0.5
+		image_xscale = scale
+		image_yscale = scale
+	} else {
+		image_index = 24
+	}
 }
 
-if cooldown = 0 {
+if other.image_index < 24 {
 	move_bounce_all(true)
-	x += (x - other.x)/15
-	y += (y - other.y)/15
+	if cooldown > 0 {
+		x += (x - other.x)/10
+		y += (y - other.y)/10
+	}
 	cooldown = 30
 }

@@ -11,3 +11,9 @@ if int64(image_index) >= 27 {
 if cooldown> 0 {
 	cooldown --	
 }
+
+if y > 1300 and int64(image_index) < 24 {
+	global.lives--
+	image_index = 24
+	
+}

@@ -1,6 +1,9 @@
 /// @desc
 if not win {
-	if step / 120 >= 60 { // win the game after 60 seconds
+	if global.lives < 0 {
+		room_goto(room_game_loss)
+	}
+	if step / 120 >= timelimit { // win the game after 60 seconds
 		win = true
 		room_goto(room_game_win)
 	} else {
@@ -12,12 +15,11 @@ if not win {
 			obj_bubble_breakout_bounce
 			) 
 		}
-		if step % 1200 = 1 {
-			global.bubble_breakout_speed += 0.1 // newly created bubbles will be faster
+		if step % (difficulty_frequency * 120) = 1 and step/120 > 1 {
+			global.bubble_breakout_speed += difficulty_step // newly created bubbles will be faster
 		}
 	}
 	step++
 } else {
-
 	// step event after win
 }
