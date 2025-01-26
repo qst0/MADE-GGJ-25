@@ -7,7 +7,7 @@ show_debug_message(gui_mouse_y)
 
 var tilt_dir = 1
 // this should be a fancy funtion in gms2 that knows this magic number
-if gui_mouse_x >= (384/2) {
+if gui_mouse_x >= (display_get_gui_width()/2) {
 	tilt_dir = -1
 }
 
