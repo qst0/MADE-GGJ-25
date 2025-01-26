@@ -37,6 +37,7 @@
     {"name":"spr_bubble_world_title","order":7,"path":"sprites/spr_bubble_world_title/spr_bubble_world_title.yy",},
     {"name":"spr_bubble","order":3,"path":"sprites/spr_bubble/spr_bubble.yy",},
     {"name":"spr_solid","order":2,"path":"sprites/spr_solid/spr_solid.yy",},
+    {"name":"spr_spikes","order":20,"path":"sprites/spr_spikes/spr_spikes.yy",},
     {"name":"win_BG","order":16,"path":"sprites/win_BG/win_BG.yy",},
     {"name":"win_screen_menu","order":11,"path":"sprites/win_screen_menu/win_screen_menu.yy",},
   ],

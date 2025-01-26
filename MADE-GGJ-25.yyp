@@ -98,6 +98,7 @@
     {"id":{"name":"spr_bubble_world_title","path":"sprites/spr_bubble_world_title/spr_bubble_world_title.yy",},},
     {"id":{"name":"spr_bubble","path":"sprites/spr_bubble/spr_bubble.yy",},},
     {"id":{"name":"spr_solid","path":"sprites/spr_solid/spr_solid.yy",},},
+    {"id":{"name":"spr_spikes","path":"sprites/spr_spikes/spr_spikes.yy",},},
     {"id":{"name":"win_BG","path":"sprites/win_BG/win_BG.yy",},},
     {"id":{"name":"win_screen_menu","path":"sprites/win_screen_menu/win_screen_menu.yy",},},
   ],
