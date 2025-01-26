@@ -3,6 +3,7 @@
   "ResourceOrderSettings":[
     {"name":"obj_ammo_special","order":1,"path":"objects/obj_ammo_special/obj_ammo_special.yy",},
     {"name":"obj_bubble_up_bubble","order":6,"path":"objects/obj_bubble_up_bubble/obj_bubble_up_bubble.yy",},
+    {"name":"obj_bubble_td_enemy_smart","order":20,"path":"objects/obj_bubble_td_enemy_smart/obj_bubble_td_enemy_smart.yy",},
     {"name":"obj_bubble_world_home","order":5,"path":"objects/obj_bubble_world_home/obj_bubble_world_home.yy",},
     {"name":"obj_button_bubble_world_try_again","order":2,"path":"objects/obj_button_bubble_world_try_again/obj_button_bubble_world_try_again.yy",},
     {"name":"obj_game_loss","order":4,"path":"objects/obj_game_loss/obj_game_loss.yy",},
