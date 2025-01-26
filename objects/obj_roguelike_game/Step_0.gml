@@ -1,5 +1,6 @@
 /// @desc
-if instance_count < 100 and step % 12 = 1{
+
+if bubble_created < num_bubble and step % 12 = 1{
 	//instance_create_depth(
 	//irandom_range(32,room_width-32),
 	//irandom_range(32,room_height-32),
@@ -12,6 +13,7 @@ if instance_count < 100 and step % 12 = 1{
     
     if (!collision_rectangle(new_x - obj_width/2, new_y + obj_height/2, new_x + obj_width/2, new_y - obj_height/2, all, false, false)) {
         instance_create_depth(new_x, new_y, 0, obj_bubble_bounce);
+        bubble_created ++;
     } else {
         //show_debug_message("Collision detected! Object not placed.");
     }

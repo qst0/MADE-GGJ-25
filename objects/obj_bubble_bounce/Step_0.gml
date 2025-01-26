@@ -1,8 +1,8 @@
 /// @desc
 //move_bounce_all(false)
-if score <= 0 {
-game_restart()
-}
+//if global.score <= 0 {
+//game_restart()
+//}
 
 if int64(image_index) = 11 {
 	image_index = 8
