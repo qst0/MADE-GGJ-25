@@ -15,7 +15,7 @@ bubble_animations_v1_width = sprite_get_width(bubble_animations_v1);
 levels = []; // 2D array where [level, enemy #] where enemy # is sorted chronologically by spawn time
 levels[0] = [{ degree: 270, spawn_time: 3, enemy_type: 0 }, { degree: 0, spawn_time: round(1.5 * room_speed), enemy_type: 0 }, { degree: 90, spawn_time: 3 * room_speed, enemy_type: 0 }];
 global.bubble_left = array_length(levels[0]);
-global.ammo_list = ["bomb", "lightning", "freeze", "poison", "pin"];
+global.ammo_list = ["lightning", "lightning", "freeze", "poison", "pin"];
 
 global.ammo_dict = ds_map_create();
 global.ammo_dict[? "bomb"] = obj_bubble_bomb;

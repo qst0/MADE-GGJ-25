@@ -54,6 +54,7 @@
     {"id":{"name":"obj_game","path":"objects/obj_game/obj_game.yy",},},
     {"id":{"name":"obj_solid","path":"objects/obj_solid/obj_solid.yy",},},
     {"id":{"name":"obj_tap_to_pop","path":"objects/obj_tap_to_pop/obj_tap_to_pop.yy",},},
+    {"id":{"name":"obj_td_effects","path":"objects/obj_td_effects/obj_td_effects.yy",},},
     {"id":{"name":"obj_td_game","path":"objects/obj_td_game/obj_td_game.yy",},},
     {"id":{"name":"room_bounce_2","path":"rooms/room_bounce_2/room_bounce_2.yy",},},
     {"id":{"name":"room_bounce_haunted","path":"rooms/room_bounce_haunted/room_bounce_haunted.yy",},},
