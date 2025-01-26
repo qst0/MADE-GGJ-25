@@ -5,6 +5,7 @@ if points < 0 {
 if not win {
 	if points >= 100 {
 		win = true
+		global.bounce_game_final_score = step / 120
 		global.bounce_bubbles_time = step / 120
 		room_goto(room_game_win)
 	} else {
@@ -18,6 +19,4 @@ if not win {
 		}
 	}
 	step++
-} else {
-	// step event after win
 }
