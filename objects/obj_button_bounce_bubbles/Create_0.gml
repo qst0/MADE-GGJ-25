@@ -1,0 +1,1 @@
+global.bounce_bubbles_time = 0
