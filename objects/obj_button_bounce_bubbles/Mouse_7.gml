@@ -1,2 +1,2 @@
 /// @desc
-room_goto(room_bounce_bubbles)
+room_goto(room_bounce_2)

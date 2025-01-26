@@ -1,4 +1,6 @@
 {
   "FolderOrderSettings":[],
-  "ResourceOrderSettings":[],
+  "ResourceOrderSettings":[
+    {"name":"room_bounce_2","order":1,"path":"rooms/room_bounce_2/room_bounce_2.yy",},
+  ],
 }
