@@ -163,3 +163,4 @@ if (end_of_wave_reached && step % (3 * room_speed)) {
 }
 
 step++;
+global.score++;

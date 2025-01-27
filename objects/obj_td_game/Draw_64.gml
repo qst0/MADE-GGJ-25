@@ -2,6 +2,8 @@
 draw_text(20,20,"Score: "+string(global.score))
 //draw_text(200,20,"Ammo: "+string(array_length(global.ammo_list)))
 
+
+
 if global.bubble_left == 0//instance_number(obj_bubble_bounce) == 0
 {
     // Get the viewport dimensions
@@ -38,7 +40,4 @@ for (var i = 0; i < array_length(global.ammo_list); i++) {
 //// Align text to the right
 //draw_set_halign(fa_right);
 //draw_set_valign(fa_top);
-
-// Draw the ammo list emojis at the top right
-draw_text(220, text_y, "Ammo:" + ammo_display);
     
