@@ -18,7 +18,7 @@ if (_num > 0)
         // Change the image_index of the colliding obj_bubble_bounce to 24
         //_list[| i].image_index = 24;
         //_list[| i].lightning_eff = true;
-        _list[| i].trigger_lightning(50, effect_radius)
+        _list[| i].trigger_lightning(50, effect_radius, max_chain)
         var this_x = x
         var this_y = y
         

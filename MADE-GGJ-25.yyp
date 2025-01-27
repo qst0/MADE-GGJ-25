@@ -119,6 +119,7 @@
     {"id":{"name":"spr_solid","path":"sprites/spr_solid/spr_solid.yy",},},
     {"id":{"name":"spr_spikes","path":"sprites/spr_spikes/spr_spikes.yy",},},
     {"id":{"name":"Sprite22","path":"sprites/Sprite22/Sprite22.yy",},},
+    {"id":{"name":"Sprite28","path":"sprites/Sprite28/Sprite28.yy",},},
     {"id":{"name":"win_BG","path":"sprites/win_BG/win_BG.yy",},},
     {"id":{"name":"win_screen_menu","path":"sprites/win_screen_menu/win_screen_menu.yy",},},
   ],

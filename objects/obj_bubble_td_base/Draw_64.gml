@@ -1,0 +1,1 @@
+draw_text(20,40,"Base HP: "+string(global.hp))

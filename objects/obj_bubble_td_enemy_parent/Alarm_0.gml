@@ -8,7 +8,7 @@ if (_num > 0)
     for (var i = 0; i < _num; ++i)
     {
         // Change the image_index of the colliding obj_bubble_bounce to 24
-        _list[| i].trigger_lightning(50, lightning_radius / 2)
+        _list[| i].trigger_lightning(50, lightning_radius, lightning_chain_left)
 
         var this_x = x
         var this_y = y
@@ -20,5 +20,6 @@ if (_num > 0)
     }
     var list_length = ds_list_size(_list);
 }
+lightning_chain_left = 0
 
-image_index = 24
+image_index = image_index_explode_start

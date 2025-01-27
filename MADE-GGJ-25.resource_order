@@ -58,6 +58,7 @@
     {"name":"spr_solid","order":2,"path":"sprites/spr_solid/spr_solid.yy",},
     {"name":"spr_spikes","order":20,"path":"sprites/spr_spikes/spr_spikes.yy",},
     {"name":"Sprite22","order":25,"path":"sprites/Sprite22/Sprite22.yy",},
+    {"name":"Sprite28","order":27,"path":"sprites/Sprite28/Sprite28.yy",},
     {"name":"win_BG","order":16,"path":"sprites/win_BG/win_BG.yy",},
     {"name":"win_screen_menu","order":11,"path":"sprites/win_screen_menu/win_screen_menu.yy",},
   ],

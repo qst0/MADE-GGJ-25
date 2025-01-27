@@ -20,6 +20,22 @@ if (array_length(global.ammo_list) > 0) {
     show_debug_message("Used ammo: " + next_ammo);
 } else {
     show_debug_message("No more ammo left!");
+    global.hp--
+    audio_play_sound(sfx_block,1,false)
+    if (random(1) <= 0.5) {
+        array_push(global.ammo_list, "bomb");
+    }
+    
+    else
+    {
+        if (random(1) <= 0.3) {
+        array_push(global.ammo_list, "freeze");
+    }
+    
+        else{
+            array_push(global.ammo_list, "lightning");
+        }
+    }
 }
 
 // Create obj_bubble_bomb at mouse position with a specific depth

@@ -36,4 +36,4 @@ for (var i = 0; i < array_length(global.ammo_list); i++) {
     }
 }
 
-draw_text(220, text_y, "Ammo:" + ammo_display);
+draw_text(20, 60, "Ammo:" + ammo_display);
