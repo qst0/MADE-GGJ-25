@@ -9,13 +9,6 @@ lightning_radius = 0
 is_frozen = false
 freeze_timer = 0
 
-prob_drop_bomb = 0.1;
-prob_drop_freeze = 0.1;
-prob_drop_lightning = 0.05;
-
-
-
-
 function trigger_lightning(trigger_time, radius)
 {
     // Store the radius in an instance variable for use in the alarm event

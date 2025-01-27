@@ -24,6 +24,7 @@
     {"name":"Bubble_World_2","order":1,"path":"sounds/Bubble_World_2/Bubble_World_2.yy",},
     {"name":"Bubble_World_3","order":2,"path":"sounds/Bubble_World_3/Bubble_World_3.yy",},
     {"name":"Bubble_World_4","order":6,"path":"sounds/Bubble_World_4/Bubble_World_4.yy",},
+    {"name":"Bubble_World_5","order":13,"path":"sounds/Bubble_World_5/Bubble_World_5.yy",},
     {"name":"Game_Loss_V2","order":4,"path":"sounds/Game_Loss_V2/Game_Loss_V2.yy",},
     {"name":"Game_Win_V2","order":5,"path":"sounds/Game_Win_V2/Game_Win_V2.yy",},
     {"name":"sfx_block","order":7,"path":"sounds/sfx_block/sfx_block.yy",},
