@@ -1,7 +1,7 @@
 {
   "$GMRoom":"v1",
   "%Name":"room_bubble_world_home",
-  "creationCodeFile":"",
+  "creationCodeFile":"rooms/room_bubble_world_home/RoomCreationCode.gml",
   "inheritCode":false,
   "inheritCreationOrder":false,
   "inheritLayers":false,
