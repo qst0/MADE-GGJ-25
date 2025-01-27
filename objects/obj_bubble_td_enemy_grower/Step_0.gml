@@ -1,9 +1,12 @@
 // Inherit the parent event
 event_inherited();
 
+var room_w = 768;
+var room_h = 1366;
+
 if (size > 1.4 && instance_number(obj_bubble_td_enemy_grower) < 6) {
 	// Make sure splitting won't lead to in the wall bugs
-	if (x > obj_td_game.bubble_animations_v1_width + 96 + 2 && x < room_width - obj_td_game.bubble_animations_v1_width - 96 - 2) {
+	if (x > obj_td_game.bubble_animations_v1_width + 96 + 2 && x < room_w - obj_td_game.bubble_animations_v1_width - 96 - 2) {
 		var _new_instance = instance_copy(true);
 		_new_instance.size = 1;
 		_new_instance.direction = random(360);
@@ -12,7 +15,7 @@ if (size > 1.4 && instance_number(obj_bubble_td_enemy_grower) < 6) {
 		_new_instance.x -= 96;
 		size = 1;
 		global.bubble_left++;
-	} else if (y > obj_td_game.bubble_animations_v1_width + 96 + 2 && y < room_height - obj_td_game.bubble_animations_v1_width - 96 - 2) {
+	} else if (y > obj_td_game.bubble_animations_v1_width + 96 + 2 && y < room_h - obj_td_game.bubble_animations_v1_width - 96 - 2) {
 		var _new_instance = instance_copy(true);
 		_new_instance.size = 1;
 		_new_instance.direction = random(360);
@@ -36,7 +39,7 @@ if (size < 2) {
 	var top_edge = y - (sprite_height * new_yscale) / 2;
 	var bottom_edge = y + (sprite_height * new_yscale) / 2;
 
-	if (left_edge >= 0 && right_edge <= room_width && top_edge >= 0 && bottom_edge <= room_height) {
+	if (left_edge >= 0 && right_edge <= room_w && top_edge >= 0 && bottom_edge <= room_h) {
 	    // Only grow if it fits
 	    size = new_size;
 	    image_xscale = new_xscale;
