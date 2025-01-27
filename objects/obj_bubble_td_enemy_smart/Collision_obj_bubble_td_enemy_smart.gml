@@ -8,6 +8,8 @@ if (x > room_w/2 && x > other.x && x < room_w - sprite_width) {
 	x += 96;
 } else if (x < room_w/2 && x < other.x && x > sprite_width) {
 	x -= 96;
+} else {
+	instance_destroy();
 }
 
 direction = point_direction(x, y, room_w / 2, room_h / 2);
