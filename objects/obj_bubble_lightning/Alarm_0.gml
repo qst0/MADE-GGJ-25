@@ -1,4 +1,4 @@
-image_index = 27
+image_index = 12
 
 //with (obj_bubble_bounce) {
     //// If there is a collision with this object

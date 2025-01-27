@@ -2,10 +2,10 @@
 scale = 4
 image_xscale = scale
 image_yscale = scale
-image_index = 6
 speed = 0.1
 direction = irandom_range(0,359)
-image_blend = c_red
-alarm[0] = 180;
+alarm[0] = 120 * 15 / 12;
+eff_radius = 150
+went_off = false
 
 

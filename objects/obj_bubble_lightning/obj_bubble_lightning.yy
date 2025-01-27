@@ -38,8 +38,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"bubble_animations_v1",
-    "path":"sprites/bubble_animations_v1/bubble_animations_v1.yy",
+    "name":"lightning_animation",
+    "path":"sprites/lightning_animation/lightning_animation.yy",
   },
   "spriteMaskId":null,
   "visible":true,

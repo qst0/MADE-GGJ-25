@@ -38,8 +38,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"bubble_animations_v1",
-    "path":"sprites/bubble_animations_v1/bubble_animations_v1.yy",
+    "name":"freeze_animation",
+    "path":"sprites/freeze_animation/freeze_animation.yy",
   },
   "spriteMaskId":null,
   "visible":true,
