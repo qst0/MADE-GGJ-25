@@ -88,6 +88,7 @@
     {"id":{"name":"Game_Loss_V2","path":"sounds/Game_Loss_V2/Game_Loss_V2.yy",},},
     {"id":{"name":"Game_Win_V2","path":"sounds/Game_Win_V2/Game_Win_V2.yy",},},
     {"id":{"name":"sfx_block","path":"sounds/sfx_block/sfx_block.yy",},},
+    {"id":{"name":"sfx_bomb_V2","path":"sounds/sfx_bomb_V2/sfx_bomb_V2.yy",},},
     {"id":{"name":"sfx_bomb","path":"sounds/sfx_bomb/sfx_bomb.yy",},},
     {"id":{"name":"sfx_bubble_join","path":"sounds/sfx_bubble_join/sfx_bubble_join.yy",},},
     {"id":{"name":"sfx_bubble_split","path":"sounds/sfx_bubble_split/sfx_bubble_split.yy",},},

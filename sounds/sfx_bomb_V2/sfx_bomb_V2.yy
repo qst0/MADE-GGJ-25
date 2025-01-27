@@ -1,6 +1,6 @@
 {
   "$GMSound":"",
-  "%Name":"sfx_bomb",
+  "%Name":"sfx_bomb_V2",
   "audioGroupId":{
     "name":"audiogroup_default",
     "path":"audiogroups/audiogroup_default",
@@ -10,7 +10,7 @@
   "compression":0,
   "conversionMode":0,
   "duration":3.3525,
-  "name":"sfx_bomb",
+  "name":"sfx_bomb_V2",
   "parent":{
     "name":"Sounds",
     "path":"folders/Sounds.yy",
@@ -19,7 +19,7 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"sfx_bomb.wav",
+  "soundFile":"sfx_bomb_V2.wav",
   "type":0,
   "volume":1.0,
 }
