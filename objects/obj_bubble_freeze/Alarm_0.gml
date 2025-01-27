@@ -18,7 +18,7 @@ if (_num > 0)
         // Change the image_index of the colliding obj_bubble_bounce to 24
         //_list[| i].image_index = 24;
         //_list[| i].lightning_eff = true;
-        _list[| i].trigger_freeze(100, effect_radius)
+        _list[| i].trigger_freeze(240, effect_radius)
         
     }
     var list_length = ds_list_size(_list);
