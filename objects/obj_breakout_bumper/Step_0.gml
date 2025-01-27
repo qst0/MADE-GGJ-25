@@ -1,0 +1,1 @@
+x = min(max(mouse_x, sprite_width/2), room_width-sprite_width/2)
