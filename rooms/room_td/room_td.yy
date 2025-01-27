@@ -36,8 +36,8 @@
       ],"layers":[],"name":"Instances_1","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRAssetLayer":"","%Name":"Assets_1","assets":[],"depth":200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":true,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Assets_1","properties":[],"resourceType":"GMRAssetLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRBackgroundLayer":"","%Name":"Background","animationFPS":15.0,"animationSpeedType":0,"colour":4282332794,"depth":300,"effectEnabled":true,"effectType":"_filter_gradient","gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Background","properties":[
-        {"name":"g_GradientColour1","type":1,"value":"#FF45353E",},
-        {"name":"g_GradientColour2","type":1,"value":"#FF3F367A",},
+        {"name":"g_GradientColour1","type":1,"value":"#FFE04399",},
+        {"name":"g_GradientColour2","type":1,"value":"#FF6C3DCC",},
         {"name":"g_GradientPosition1","type":0,"value":"0",},
         {"name":"g_GradientPosition1","type":0,"value":"0",},
         {"name":"g_GradientPosition2","type":0,"value":"0",},

@@ -1,4 +1,8 @@
 /// @desc
+global.breakout_score = step
+if global.breakout_score > global.breakout_high_score {
+	global.breakout_high_score = global.breakout_score
+}
 if not win {
 	if global.lives < 0 {
 		room_goto(room_game_loss)

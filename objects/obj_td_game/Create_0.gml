@@ -2,7 +2,10 @@
 step = 0
 randomize()
 global.score = 0
-
+if not audio_is_playing(Bubble_World_5){
+	audio_stop_all()
+	audio_play_sound(Bubble_World_5,10,true)
+}
 //obj_width = sprite_get_width(object_get_sprite(obj_bubble));
 //obj_height = sprite_get_height(object_get_sprite(obj_bubble));
 //ammo_left = 5;
@@ -26,7 +29,7 @@ levels[0] = [
 { degree: 60, spawn_direction: 0, spawn_time: 9 * room_speed, enemy_type: 2 },
 { degree: 120, spawn_direction: 0, spawn_time: 10 * room_speed, enemy_type: 2 }];
 global.bubble_left = array_length(levels[0]);
-global.ammo_list = ["lightning", "lightning", "freeze", "freeze", "freeze"];
+global.ammo_list = ["bomb", "lightning", "freeze", "bomb", "bomb"];
 
 global.ammo_dict = ds_map_create();
 global.ammo_dict[? "bomb"] = obj_bubble_bomb;

@@ -1,6 +1,5 @@
 /// @desc
 draw_text(20,20,"Score: "+string(global.score))
-//draw_text(200,20,"Ammo: "+string(array_length(global.ammo_list)))
 
 
 
@@ -37,7 +36,4 @@ for (var i = 0; i < array_length(global.ammo_list); i++) {
     }
 }
 
-//// Align text to the right
-//draw_set_halign(fa_right);
-//draw_set_valign(fa_top);
-    
+draw_text(220, text_y, "Ammo:" + ammo_display);
