@@ -81,7 +81,7 @@ if (step == levels[active_level][next_enemy_index].spawn_time) {
     }
 }
 
-if (end_of_wave_reached && (step % (3 * room_speed) == 0)) {
+if (end_of_wave_reached && (step % (1 * room_speed) == 0)) {
 	var enemy_specs = {
 		degree: random(360),
 		enemy_type: irandom(2),

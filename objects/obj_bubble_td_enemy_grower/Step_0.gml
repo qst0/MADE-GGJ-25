@@ -6,18 +6,17 @@ var room_h = 1366;
 
 if (size > 1.4 && instance_number(obj_bubble_td_enemy_grower) < 6) {
 	// Make sure splitting won't lead to in the wall bugs
-	if (x > obj_td_game.bubble_animations_v1_width + 96 + 2 && x < room_w - obj_td_game.bubble_animations_v1_width - 96 - 2) {
-		var _new_instance = instance_copy(true);
-		_new_instance.size = 1;
+	if (x > obj_td_game.bubble_animations_v1_width + 96 + 2 && x < room_w - obj_td_game.bubble_animations_v1_width - 96 - 2) { 
+        size = 1;
+        var _new_instance = instance_copy(true);
 		_new_instance.direction = random(360);
-	audio_play_sound(sfx_bubble_split,1,false)
+	   audio_play_sound(sfx_bubble_split,1,false);
 		x += 96;
 		_new_instance.x -= 96;
-		size = 1;
 		global.bubble_left++;
 	} else if (y > obj_td_game.bubble_animations_v1_width + 96 + 2 && y < room_h - obj_td_game.bubble_animations_v1_width - 96 - 2) {
-		var _new_instance = instance_copy(true);
-		_new_instance.size = 1;
+		size = 1;
+        var _new_instance = instance_copy(true);
 		_new_instance.direction = random(360);
 	
 		y += 96;
