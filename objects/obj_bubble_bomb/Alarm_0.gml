@@ -10,6 +10,7 @@ image_index = 27
 
 var _list = ds_list_create();
 var _num = collision_circle_list(x, y, 100, obj_bubble_td_enemy_parent, false, true, _list, false);
+audio_play_sound(sfx_bomb,1,false)
 
 if (_num > 0)
 {

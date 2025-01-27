@@ -10,7 +10,7 @@ if (size > 1.4 && instance_number(obj_bubble_td_enemy_grower) < 6) {
 		var _new_instance = instance_copy(true);
 		_new_instance.size = 1;
 		_new_instance.direction = random(360);
-	
+	audio_play_sound(sfx_bubble_split,1,false)
 		x += 96;
 		_new_instance.x -= 96;
 		size = 1;

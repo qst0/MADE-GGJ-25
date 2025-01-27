@@ -11,5 +11,5 @@ if (x > room_w/2 && x > other.x && x < room_w - sprite_width) {
 } else {
 	instance_destroy();
 }
-
+audio_play_sound(sfx_bubble_join,1,false)
 direction = point_direction(x, y, room_w / 2, room_h / 2);
