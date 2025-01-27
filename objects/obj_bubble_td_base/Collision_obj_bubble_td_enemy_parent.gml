@@ -1,5 +1,5 @@
 instance_destroy(other);
-effect_create_above(ef_explosion, x, y, 1, c_white);
+audio_play_sound(sfx_block,1,false)
 size += grow_delta;
 image_xscale = size;
 image_yscale = size;
