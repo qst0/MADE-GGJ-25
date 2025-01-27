@@ -1,14 +1,13 @@
 /// @desc
 draw_text(20,20,"Score: "+string(global.score))
-//draw_text(200,20,"Ammo: "+string(array_length(global.ammo_list)))
 
 
 
 if global.bubble_left == 0//instance_number(obj_bubble_bounce) == 0
 {
     // Get the viewport dimensions
-    var viewport_width = view_wport[0];  // View width
-    var viewport_height = view_hport[0]; // View height
+    var viewport_width = view_wport;  // View width
+    var viewport_height = view_hport; // View height
     
     // Calculate the position to center the text
     var text = "You won!";
@@ -20,7 +19,7 @@ if global.bubble_left == 0//instance_number(obj_bubble_bounce) == 0
     alarm[0] = 300;
 }
 
-var screen_w = view_wport[0];
+var screen_w = view_wport;
 var margin = 20;
 var text_x = screen_w - margin;  // Position near the right edge
 var text_y = margin;  // Top margin
@@ -37,7 +36,4 @@ for (var i = 0; i < array_length(global.ammo_list); i++) {
     }
 }
 
-//// Align text to the right
-//draw_set_halign(fa_right);
-//draw_set_valign(fa_top);
-    
+draw_text(220, text_y, "Ammo:" + ammo_display);
