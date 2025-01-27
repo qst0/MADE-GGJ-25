@@ -1,9 +1,4 @@
 /// @desc
-if not audio_is_playing(Bubble_World_4){
-	audio_stop_all()
-	audio_play_sound(Bubble_World_4,10,true)
-}
-
 global.last_up_score = 0
 if not global.bubble_up_highest {
 	global.bubble_up_highest = 0
