@@ -1,3 +1,3 @@
 /// @desc
 draw_self()
-draw_text(x-40,y,"Try Again")
+draw_text(x-70,y,"Try Again")
