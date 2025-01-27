@@ -111,8 +111,8 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
-    {"roomId":{"name":"room_bubble_breakout","path":"rooms/room_bubble_breakout/room_bubble_breakout.yy",},},
     {"roomId":{"name":"room_bubble_world_home","path":"rooms/room_bubble_world_home/room_bubble_world_home.yy",},},
+    {"roomId":{"name":"room_bubble_breakout","path":"rooms/room_bubble_breakout/room_bubble_breakout.yy",},},
     {"roomId":{"name":"room_bubble_up","path":"rooms/room_bubble_up/room_bubble_up.yy",},},
     {"roomId":{"name":"room_game_win","path":"rooms/room_game_win/room_game_win.yy",},},
     {"roomId":{"name":"room_td","path":"rooms/room_td/room_td.yy",},},
