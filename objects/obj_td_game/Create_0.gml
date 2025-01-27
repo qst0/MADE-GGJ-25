@@ -9,6 +9,7 @@ global.score = 0
 
 active_level = 0;
 next_enemy_index = 0;
+end_of_wave_reached = false;
 
 bubble_animations_v1_width = sprite_get_width(bubble_animations_v1);
 
