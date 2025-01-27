@@ -21,5 +21,5 @@
   "sampleRate":44100,
   "soundFile":"Bubble_World_5.wav",
   "type":1,
-  "volume":0.7,
+  "volume":0.9,
 }
