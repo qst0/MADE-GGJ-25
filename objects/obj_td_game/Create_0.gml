@@ -2,6 +2,7 @@
 step = 0
 randomize()
 global.score = 0
+global.td_high_score = 0
 if not audio_is_playing(Bubble_World_5){
 	audio_stop_all()
 	audio_play_sound(Bubble_World_5,10,true)
