@@ -6,8 +6,8 @@ draw_text(20,20,"Score: "+string(global.score))
 if global.bubble_left == 0//instance_number(obj_bubble_bounce) == 0
 {
     // Get the viewport dimensions
-    var viewport_width = view_wport;  // View width
-    var viewport_height = view_hport; // View height
+    var viewport_width = view_wport[0];  // View width
+    var viewport_height = view_hport[0]; // View height
     
     // Calculate the position to center the text
     var text = "You won!";
@@ -19,7 +19,7 @@ if global.bubble_left == 0//instance_number(obj_bubble_bounce) == 0
     alarm[0] = 300;
 }
 
-var screen_w = view_wport;
+var screen_w = view_wport[0];
 var margin = 20;
 var text_x = screen_w - margin;  // Position near the right edge
 var text_y = margin;  // Top margin
