@@ -2,7 +2,10 @@
 step = 0
 randomize()
 global.score = 0
-
+if not audio_is_playing(Bubble_World_5){
+	audio_stop_all()
+	audio_play_sound(Bubble_World_5,10,true)
+}
 //obj_width = sprite_get_width(object_get_sprite(obj_bubble));
 //obj_height = sprite_get_height(object_get_sprite(obj_bubble));
 //ammo_left = 5;
