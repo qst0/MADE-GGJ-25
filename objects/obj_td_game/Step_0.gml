@@ -1,3 +1,6 @@
+var room_h = 1366;
+var room_w = 768;
+
 if (step == levels[active_level][next_enemy_index].spawn_time) {
     var enemy_specs = levels[active_level][next_enemy_index];
     
@@ -7,19 +10,19 @@ if (step == levels[active_level][next_enemy_index].spawn_time) {
         // spawn on south edge
         
         var deg = (135 - enemy_specs.degree)/90; // % of axis are spawning from
-        x_spawn = deg * room_width;
-        y_spawn = room_height;
+        x_spawn = deg * room_w;
+        y_spawn = room_h;
     } else if (enemy_specs.degree >= 135 && enemy_specs.degree < 225) {
         // spawn on west edge
         
         var deg = (enemy_specs.degree - 135)/90;
         x_spawn = 0;
-        y_spawn = deg * room_height;
+        y_spawn = deg * room_h;
     } else if (enemy_specs.degree >= 225 && enemy_specs.degree < 315) {
         // spawn on north edge
         
         var deg = (enemy_specs.degree - 225)/90;
-        x_spawn = deg * room_width;
+        x_spawn = deg * room_w;
         y_spawn = 0;
     } else {
         // spawn on east edge
@@ -30,16 +33,13 @@ if (step == levels[active_level][next_enemy_index].spawn_time) {
         } else {
             deg += (enemy_specs.degree - 315)/90;
         }
-        x_spawn = room_width;
-        y_spawn = deg * room_height;
+        x_spawn = room_w;
+        y_spawn = deg * room_h;
     }
     
-    x_spawn = clamp(x_spawn, bubble_animations_v1_width + 1, room_width - bubble_animations_v1_width - 1);
-    y_spawn = clamp(y_spawn, bubble_animations_v1_width + 1, room_height - bubble_animations_v1_width - 1);
+    x_spawn = clamp(x_spawn, bubble_animations_v1_width + 1, room_w - bubble_animations_v1_width - 1);
+    y_spawn = clamp(y_spawn, bubble_animations_v1_width + 1, room_h - bubble_animations_v1_width - 1);
     
-    //show_debug_message("room_height: " + string(room_height) + " room_width: " + string(room_width) + " bubble width: " + string(bubble_animations_v1_width));
-    //show_debug_message("x_spawn: " + string(x_spawn) + " y_spawn: " + string(y_spawn));
-	
 	// Get a list of all instances in the collision area
 	var collisions = ds_list_create();
 	collision_circle_list(x_spawn, y_spawn, bubble_animations_v1_width, all, false, true, collisions, false);
@@ -94,19 +94,19 @@ if (end_of_wave_reached && step % (3 * room_speed)) {
         // spawn on south edge
         
         var deg = (135 - enemy_specs.degree)/90; // % of axis are spawning from
-        x_spawn = deg * room_width;
-        y_spawn = room_height;
+        x_spawn = deg * room_w;
+        y_spawn = room_h;
     } else if (enemy_specs.degree >= 135 && enemy_specs.degree < 225) {
         // spawn on west edge
         
         var deg = (enemy_specs.degree - 135)/90;
         x_spawn = 0;
-        y_spawn = deg * room_height;
+        y_spawn = deg * room_h;
     } else if (enemy_specs.degree >= 225 && enemy_specs.degree < 315) {
         // spawn on north edge
         
         var deg = (enemy_specs.degree - 225)/90;
-        x_spawn = deg * room_width;
+        x_spawn = deg * room_w;
         y_spawn = 0;
     } else {
         // spawn on east edge
@@ -117,12 +117,12 @@ if (end_of_wave_reached && step % (3 * room_speed)) {
         } else {
             deg += (enemy_specs.degree - 315)/90;
         }
-        x_spawn = room_width;
-        y_spawn = deg * room_height;
+        x_spawn = room_w;
+        y_spawn = deg * room_h;
     }
     
-    x_spawn = clamp(x_spawn, bubble_animations_v1_width + 1, room_width - bubble_animations_v1_width - 1);
-    y_spawn = clamp(y_spawn, bubble_animations_v1_width + 1, room_height - bubble_animations_v1_width - 1);
+    x_spawn = clamp(x_spawn, bubble_animations_v1_width + 1, room_w - bubble_animations_v1_width - 1);
+    y_spawn = clamp(y_spawn, bubble_animations_v1_width + 1, room_h - bubble_animations_v1_width - 1);
     
     //show_debug_message("room_height: " + string(room_height) + " room_width: " + string(room_width) + " bubble width: " + string(bubble_animations_v1_width));
     //show_debug_message("x_spawn: " + string(x_spawn) + " y_spawn: " + string(y_spawn));
