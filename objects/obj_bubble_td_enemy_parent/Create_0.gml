@@ -14,9 +14,9 @@ lightning_chain_left = 0
 is_frozen = false
 freeze_timer = 0
 
-prob_drop_bomb = 0.1
-prob_drop_freeze = 0.2
-prob_drop_lightning = 0.1
+prob_drop_bomb = 0.2
+prob_drop_freeze = 0.4
+prob_drop_lightning = 0.2
 
 
 function trigger_lightning(trigger_time, radius, chain_left)

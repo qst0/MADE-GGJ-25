@@ -10,7 +10,7 @@ max_growers = 6
 max_split = 1
 
 prob_drop_bomb = 0.3
-prob_drop_freeze = 0.1
+prob_drop_freeze = 0.2
 prob_drop_lightning = 0.5
 
 size = 0.8;

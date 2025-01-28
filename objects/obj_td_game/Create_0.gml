@@ -30,7 +30,7 @@ levels[0] = [
 { degree: 60, spawn_direction: 10, spawn_time: 9 * room_speed, enemy_type: 2 },
 { degree: 120, spawn_direction: 20, spawn_time: 10 * room_speed, enemy_type: 2 }];
 global.bubble_left = array_length(levels[0]);
-global.ammo_list = ["bomb", "lightning", "freeze", "bomb", "bomb"];
+global.ammo_list = ["bomb", "lightning", "freeze", "bomb", "lightning", "freeze", "bomb"];
 
 global.ammo_dict = ds_map_create();
 global.ammo_dict[? "bomb"] = obj_bubble_bomb;
